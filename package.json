@@ -1,0 +1,22 @@
+{
+  "name": "d-codegrid",
+  "description": "d-codegrid",
+  "scripts": {
+    "start": "budo main.js -ol -- -t babelify -t stringify --extension='.html' | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarshin-sandbox/d-codegrid"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "budo": "^5.1.1",
+    "garnish": "^3.2.1",
+    "stringify": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash.template": "^3.6.2"
+  }
+}
